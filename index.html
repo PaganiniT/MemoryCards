@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <title>MemoryCard</title> 
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div> 
+    <div class="encabezado">
+      <div>
+        <span>Tiempo restante: <span id="tiempo"></span></span>
+      </div>
+      <div>
+        <button id="iniciar" class="btn-juego">Iniciar</button>
+        <button id="detener" disabled class="btn-juego detener">detener</button>
+        <button id="reiniciar" disabled class="btn-juego reiniciar">reiniciar</button>
+      </div>
+    </div>
+    <div class="container" id="tablero"></div>
+    <div id="perdiste" class="perdiste"><span>Fin del Juego Perdiste</span></div>
+    <div id="ganaste" class="ganaste"><span>Felicidades <br> GANASTE!!!</span></div>
+    <script src="src/js/main.js"></script> 
+    <!--JS Particles.js --> 
+    <script src="src/js/app.js"></script>
+    <script src="src/js/particlesjs/particles.min.js"></script> 
+    
+  </body>
+</html>
